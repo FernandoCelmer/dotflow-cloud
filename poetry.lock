@@ -262,19 +262,20 @@ rich = "*"
 
 [[package]]
 name = "dotflow"
-version = "0.16.0.dev1"
+version = "0.16.0.dev2"
 description = "🎲 Dotflow turns an idea into flow! Lightweight Python library for execution pipelines with retry, parallel, cron and async support."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "dotflow-0.16.0.dev1-py3-none-any.whl", hash = "sha256:653bbb6e40551b3354199e441f71c451f53e46d9ae0bf1d5042dd855810d3566"},
-    {file = "dotflow-0.16.0.dev1.tar.gz", hash = "sha256:3e636a0871e66f654494dadd0a3e04338e390f87ede5b8efa6b42a3c792b65bc"},
+    {file = "dotflow-0.16.0.dev2-py3-none-any.whl", hash = "sha256:72316d54ffd70624dc5475c5438c1425fb7cd72e02fedde5412b0b9738aded8e"},
+    {file = "dotflow-0.16.0.dev2.tar.gz", hash = "sha256:82e9ef51a452aedbf7092936ec1047807850620e1302fca7f12f77ee737253d0"},
 ]
 
 [package.dependencies]
 cookiecutter = ">=2.0"
 pydantic = "*"
+python-ulid = ">=3.0"
 requests = "*"
 rich = "*"
 typing-extensions = "*"
@@ -751,6 +752,21 @@ text-unidecode = ">=1.3"
 unidecode = ["Unidecode (>=1.1.1)"]
 
 [[package]]
+name = "python-ulid"
+version = "3.1.0"
+description = "Universally unique lexicographically sortable identifier"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "python_ulid-3.1.0-py3-none-any.whl", hash = "sha256:e2cdc979c8c877029b4b7a38a6fba3bc4578e4f109a308419ff4d3ccf0a46619"},
+    {file = "python_ulid-3.1.0.tar.gz", hash = "sha256:ff0410a598bc5f6b01b602851a3296ede6f91389f913a5d5f8c496003836f636"},
+]
+
+[package.extras]
+pydantic = ["pydantic (>=2.0)"]
+
+[[package]]
 name = "pyyaml"
 version = "6.0.3"
 description = "YAML parser and emitter for Python"
@@ -1019,4 +1035,4 @@ dev = ["pytest"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9"
-content-hash = "880cbb312d467bc1470cb07eefc2f5c352e435bcb0414802391ff874b4c4ad81"
+content-hash = "abba5f835d8ebb2b44b3c277fd959a00e9a9964bd08148dec9d92447630ca9f1"
