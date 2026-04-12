@@ -1,0 +1,11 @@
+[project]
+name = "dotflow_cloud"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.9"
+dependencies = [
+    "dotflow==0.15.0.dev7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
