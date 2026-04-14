@@ -4,7 +4,8 @@ version = "0.1.0"
 description = ""
 requires-python = ">=3.9"
 dependencies = [
-    "dotflow (==1.0.0.dev1)",
+    "dotflow (==1.0.0.dev2)",
+    "httpx",
 ]
 
 [project.optional-dependencies]
