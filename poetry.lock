@@ -282,14 +282,14 @@ rich = "*"
 
 [[package]]
 name = "dotflow"
-version = "1.0.0.dev2"
+version = "1.0.0.dev5"
 description = "🎲 Dotflow turns an idea into flow! Lightweight Python library for execution pipelines with retry, parallel, cron and async support."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "dotflow-1.0.0.dev2-py3-none-any.whl", hash = "sha256:6b5b697d17e5edb0be8fc37f1a8b4c7403a1cdbce271c516248708d34231f99a"},
-    {file = "dotflow-1.0.0.dev2.tar.gz", hash = "sha256:c04832b563b7a55c3951bfb288662863ad170a7007028c902a0ca454dafff795"},
+    {file = "dotflow-1.0.0.dev5-py3-none-any.whl", hash = "sha256:0ba0c5bcc1b7a88e92c4f18206c73de7a21c19cd7373cdaab44714b035925c5a"},
+    {file = "dotflow-1.0.0.dev5.tar.gz", hash = "sha256:883fde8d1c7087f598af30d72ec653eaafe25f660e0f56b2ff5a90254820a318"},
 ]
 
 [package.dependencies]
@@ -310,6 +310,11 @@ gcp = ["google-cloud-storage"]
 otel = ["opentelemetry-api", "opentelemetry-sdk"]
 scheduler = ["croniter"]
 sentry = ["sentry-sdk"]
+
+[package.source]
+type = "legacy"
+url = "https://test.pypi.org/simple"
+reference = "testpypi"
 
 [[package]]
 name = "exceptiongroup"
@@ -1113,4 +1118,4 @@ dev = ["pytest"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9"
-content-hash = "7a720b0a160cb249884ba678a53a0bba0e297cc4292fea650e29302d9bb9b36a"
+content-hash = "26fd052440326865389c61e3713ae3fcd00442d79cfe464ceafaa9f5d16ca406"
